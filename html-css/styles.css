@@ -12,3 +12,134 @@ the font is called 'nunito' and can be found on google fonts
 ***you can use it if you'd like or you can choose your own***
 
 */
+
+/* .images {
+    background-size: 100px 120px;
+} */
+
+body {
+    font-family: 'Nunito', sans-serif;
+}
+
+.navbar {
+    height: 6vh;
+    width: auto;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a {
+    color: white;
+    font-size: 12px;
+    text-decoration: none;
+    margin-left: 30px;
+    margin-right: 10px;
+    font-weight: 200;
+}
+
+.nav {
+    color: rgb(42, 171, 226);
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    font-weight: 600;
+}
+
+.h1 {
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 30px;
+    margin: 0 auto;
+}
+
+.main{
+    display: block;
+    height: fit-content;
+    width: 500px;
+    margin: 0 auto;
+}
+
+
+.profile {
+    height: 220px;
+    width: 240px;
+    right: 2%;
+    position: absolute;
+    box-shadow: 5px 5px 15px 5px rgba(102, 75, 75, .3);
+    top: 10%;
+    display: flex;
+    justify-content: center;
+}
+
+.profileimg {
+    position: absolute;
+    margin: auto;
+    bottom: 30%;
+}
+
+.name {
+    margin-top: auto !important;
+}
+
+.sidebar {
+    height: fit-content; 
+    width: 230px;
+    position: absolute; 
+    right: 2%;
+    top: 35%;
+    padding-top: 20px;
+    padding: 4px;
+    box-shadow: 5px 5px 15px 5px rgba(102, 75, 75, .3);
+    
+}
+
+.view {
+    color:  rgb(42, 171, 226);
+}
+
+.placeholder {
+    /* height: 600px;
+    width: 750px; */
+    display: flex;
+    flex-flow: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+}
+
+
+.title {
+    text-align: center;
+}
+
+.h3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+img {
+    width: 140px;
+    
+}
+
+footer {
+    height: 40px;
+    width: auto;
+    background-color: rgb(42, 171, 226);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    bottom: 0;
+}
